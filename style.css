@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --primary: #d4d4d4;
+    --note: #fff;
+    --background: #c0cfdf;
+    --altbackground: #55accf;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add {
+    background-color: var(--altbackground); 
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: var(--note);
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px 4px rgba(0,0,0,0.1);
+}
+
+.note {
+    background-color: #e9eef3;
+    color: #000;
+    box-shadow: 0 0 10px 4px rgba(0,0,0,0.1);
+    margin: 30px 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.note .tools {
+    background-color: var(--altbackground);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border:  none;
+    color: #e9eef3;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 345px;
+    width: 100%;
+    padding: 20px;
+}
+
+.main {
+    padding: 20px;
+    font-family: inherit;
+    font-size: 1.2rem;
+}
+
+.hidden {
+    display: none;
+}
