@@ -1,4 +1,4 @@
-#  <TEXT GOES HERE> - By Jon D Jones 💥
+# Markdoiwn Editor - By Jon D Jones 💥
 
 This project makes uses of:
 
